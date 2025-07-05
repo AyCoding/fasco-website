@@ -4,8 +4,12 @@ import TheHeader from '@/components/TheHeader.vue'
 
 const isSmallScreen = ref(false)
 
-function checkScreen() {
+/*function checkScreen() {
   isSmallScreen.value = window.innerWidth < 1280
+}*/
+
+function checkScreen() {
+  isSmallScreen.value = window.matchMedia('(max-width: 1279px)').matches
 }
 
 onMounted(() => {
