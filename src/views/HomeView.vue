@@ -142,6 +142,161 @@ onUnmounted(() => {
           </div>
         </div>
       </section>
+      <section class="new-arrivals">
+        <div>
+          <div class="head">
+            <h2>New Arrivals</h2>
+            <p class="desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis ultrices
+              sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin
+            </p>
+          </div>
+
+          <div class="categories">
+            <div class="category-list">
+              <a href="#">
+                <div class="category-item">Men’s Fashion</div>
+              </a>
+              <a href="#">
+                <div class="category-item">Women’s Fashion</div>
+              </a>
+              <a href="#">
+                <div class="category-item">Women Accessories</div>
+              </a>
+              <a href="#">
+                <div class="category-item">Men Accessories</div>
+              </a>
+              <a href="#">
+                <div class="category-item">Discount Deals</div>
+              </a>
+            </div>
+          </div>
+
+          <div class="products">
+            <div class="product-card">
+              <img src="/Images.png" alt="" />
+              <div class="product-detail">
+                <div class="header-product-detail">
+                  <div>
+                    <h4 class="title">Shiny Dress</h4>
+                    <p class="subtitle">Al Karam</p>
+                  </div>
+                  <div class="stars">
+                    <!-- STARS -->
+                    X X X X X
+                  </div>
+                </div>
+                <p class="reviews">(4.1k) Customer Reviews</p>
+                <div class="product-sale">
+                  <p class="price">$95.50</p>
+                  <p class="alert">Almost Sold Out</p>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <img src="/Images-2.png" alt="" />
+              <div class="product-detail">
+                <div class="header-product-detail">
+                  <div>
+                    <h4 class="title">Long Dress</h4>
+                    <p class="subtitle">Al Karam</p>
+                  </div>
+                  <div class="stars">
+                    <!-- STARS -->
+                    X X X X X
+                  </div>
+                </div>
+                <p class="reviews">(4.1k) Customer Reviews</p>
+                <div class="product-sale">
+                  <p class="price">$95.50</p>
+                  <p class="alert">Almost Sold Out</p>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <img src="/Images-4.png" alt="" />
+              <div class="product-detail">
+                <div class="header-product-detail">
+                  <div>
+                    <h4 class="title">Full Sweater</h4>
+                    <p class="subtitle">Al Karam</p>
+                  </div>
+                  <div class="stars">
+                    <!-- STARS -->
+                    X X X X X
+                  </div>
+                </div>
+                <p class="reviews">(4.1k) Customer Reviews</p>
+                <div class="product-sale">
+                  <p class="price">$95.50</p>
+                  <p class="alert">Almost Sold Out</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <img src="/Images-1.png" alt="" />
+              <div class="product-detail">
+                <div class="header-product-detail">
+                  <div>
+                    <h4 class="title">White Dress</h4>
+                    <p class="subtitle">Al Karam</p>
+                  </div>
+                  <div class="stars">
+                    <!-- STARS -->
+                    X X X X X
+                  </div>
+                </div>
+                <p class="reviews">(4.1k) Customer Reviews</p>
+                <div class="product-sale">
+                  <p class="price">$95.50</p>
+                  <p class="alert">Almost Sold Out</p>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <img src="/Images-3.png" alt="" />
+              <div class="product-detail">
+                <div class="header-product-detail">
+                  <div>
+                    <h4 class="title">Colorful Dress</h4>
+                    <p class="subtitle">Al Karam</p>
+                  </div>
+                  <div class="stars">
+                    <!-- STARS -->
+                    X X X X X
+                  </div>
+                </div>
+                <p class="reviews">(4.1k) Customer Reviews</p>
+                <div class="product-sale">
+                  <p class="price">$95.50</p>
+                  <p class="alert">Almost Sold Out</p>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <img src="/Images-5.png" alt="" />
+              <div class="product-detail">
+                <div class="header-product-detail">
+                  <div>
+                    <h4 class="title">White Shirt</h4>
+                    <p class="subtitle">Al Karam</p>
+                  </div>
+                  <div class="stars">
+                    <!-- STARS -->
+                    X X X X X
+                  </div>
+                </div>
+                <p class="reviews">(4.1k) Customer Reviews</p>
+                <div class="product-sale">
+                  <p class="price">$95.50</p>
+                  <p class="alert">Almost Sold Out</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!--    FOOTER -->
