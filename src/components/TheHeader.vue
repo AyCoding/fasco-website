@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <header>
+  <header style="padding-inline: 1rem">
     <div class="navbar">
       <div class="logo">
         <a href="#">FASCO</a>

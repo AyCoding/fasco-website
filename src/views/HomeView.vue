@@ -28,7 +28,7 @@ onUnmounted(() => {
 
     <!--  TODO : Refactor HTML -->
     <main>
-      <div class="hero-header">
+      <div class="hero-header" style="padding-inline: 1rem">
         <div>
           <img src="/image%202%2028.png" alt="" />
         </div>
@@ -55,7 +55,7 @@ onUnmounted(() => {
       </div>
 
       <div class="logos">
-        <div>
+        <div style="padding-inline: 1rem">
           <img src="/chanel.png" alt="" />
           <img src="/lvmh.png" alt="" />
           <img src="/prada.png" alt="" />
@@ -64,49 +64,79 @@ onUnmounted(() => {
         </div>
       </div>
 
-      <section class="deal-of-the-month">
-        <div>
-          <div class="head">
-            <div>
-              <h2>Deals Of The Month</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis ultrices
-                sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin
-              </p>
+      <section class="deal-of-the-month" style="overflow: hidden">
+        <div style="display: flex">
+          <div>
+            <div class="head">
+              <div>
+                <h2>Deals Of The Month</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis ultrices
+                  sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin
+                </p>
+              </div>
+
+              <a href="#">
+                <div class="btn">Buy Now</div>
+              </a>
             </div>
 
-            <a href="#">
-              <div class="btn">Buy Now</div>
-            </a>
+            <div class="subhead">
+              <h3>Hurry, Before It’s Too Late!</h3>
+
+              <div class="timer">
+                <div class="item">
+                  <div class="time">
+                    <span>02</span>
+                  </div>
+                  <p>Days</p>
+                </div>
+                <div class="item">
+                  <div class="time">
+                    <span>06</span>
+                  </div>
+                  <p>Hr</p>
+                </div>
+                <div class="item">
+                  <div class="time">
+                    <span>05</span>
+                  </div>
+                  <p>Mins</p>
+                </div>
+                <div class="item">
+                  <div class="time">
+                    <span>30</span>
+                  </div>
+                  <p>Sec</p>
+                </div>
+              </div>
+            </div>
           </div>
+          <div class="products-section">
+            <div class="products">
+              <div class="image-slider">
+                <img src="/product-slider-1.png" alt="" />
 
-          <div class="subhead">
-            <h3>Hurry, Before It’s Too Late!</h3>
-
-            <div class="timer">
-              <div class="item">
-                <div class="time">
-                  <span>02</span>
+                <div class="promo" style="">
+                  <div style="">
+                    01
+                    <div class="bar"></div>
+                    Spring Sale
+                  </div>
+                  <span>30% OFF</span>
                 </div>
-                <p>Days</p>
               </div>
-              <div class="item">
-                <div class="time">
-                  <span>06</span>
-                </div>
-                <p>Hr</p>
+              <div class="image-slider">
+                <img src="/product-slider-2.png" alt="" />
               </div>
-              <div class="item">
-                <div class="time">
-                  <span>05</span>
-                </div>
-                <p>Mins</p>
+              <div class="image-slider">
+                <img src="/product-slider-3.png" alt="" />
               </div>
-              <div class="item">
-                <div class="time">
-                  <span>30</span>
-                </div>
-                <p>Sec</p>
+              <div class="button-slider">
+                <button></button>
+                <button></button>
+                <button></button>
+                <button></button>
               </div>
             </div>
           </div>
@@ -120,14 +150,25 @@ onUnmounted(() => {
     >
       <p>
         Développer par
-        <a href="https://aymericdelange.fr/" style="text-decoration: underline; font-weight: 700"
+        <a
+          href="https://aymericdelange.fr/"
+          target="_blank"
+          style="text-decoration: underline; font-weight: 700"
           >Aymeric DE LANGE</a
+        >
+        -
+        <a
+          href="https://github.com/AyCoding/fasco-website"
+          target="_blank"
+          style="text-decoration: underline; font-weight: 700"
+          >Code Source</a
         >
       </p>
       <p>
         Une création de
         <a
           href="https://www.figma.com/community/file/1261030123322260154"
+          target="_blank"
           style="text-decoration: underline; font-weight: 700"
         >
           Hamza Anza
@@ -135,6 +176,7 @@ onUnmounted(() => {
         via Figma Community sous licence
         <a
           href="https://creativecommons.org/licenses/by/4.0/deed.fr"
+          target="_blank"
           style="font-weight: 700; text-decoration: underline"
           >CC BY 4.0</a
         >

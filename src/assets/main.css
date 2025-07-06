@@ -1,4 +1,4 @@
-@import "reset.css";
+@import 'reset.css';
 
 @import url(https://fonts.bunny.net/css?family=poppins:100,100i,200,300,400,500,600,700,800,900|volkhov:400,400i,700,700i);
 
@@ -6,7 +6,7 @@
 
 /* TODO : Refactor CSS */
 :root {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .logo {
@@ -95,7 +95,6 @@ header {
         align-items: center;
         text-align: center;
 
-
         > div:nth-child(1) {
             background: #e0e0e0;
             border-radius: 10px;
@@ -128,7 +127,6 @@ header {
                 font-weight: 500;
                 letter-spacing: 8px;
             }
-
 
             a {
                 display: flex;
@@ -176,12 +174,12 @@ header {
 .disclaimer {
     font-size: 2rem;
     font-weight: 900;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .deal-of-the-month {
     /*background: linear-gradient(180deg, #FFF 0%, #FAFAFA 100%);*/
-    background: #FAFAFA;
+    background: #fafafa;
     padding-top: 5rem;
 
     height: 800px;
@@ -209,7 +207,7 @@ header {
             text-wrap: pretty;
 
             p {
-                color: #8A8A8A;
+                color: #8a8a8a;
             }
         }
     }
@@ -227,6 +225,7 @@ header {
         font-weight: 400;
         font-family: 'Volkhov', serif;
         color: #484848;
+        line-height: 1.5;
     }
 
     h3 {
@@ -248,7 +247,6 @@ header {
             color: #484848;
         }
 
-
         .item p {
             font-size: 24px;
             line-height: 28px;
@@ -262,9 +260,103 @@ header {
             padding-inline: 10px;
 
             border-radius: 10px;
-            background: #FFF;
+            background: #fff;
 
             box-shadow: 0 4px 14px 1px rgba(0, 0, 0, 0.16);
+        }
+    }
+}
+
+.products-section {
+    position: relative;
+    width: auto;
+    height: auto;
+
+    .products {
+        position: absolute;
+        top: 0;
+        left: 0;
+        /*background: red;*/
+        width: 1200px;
+        /*height: 800px;*/
+
+        margin-left: 5rem;
+
+        display: flex;
+        gap: 24px;
+        padding-inline: 1rem;
+
+        .image-slider {
+            img {
+                width: auto;
+                height: 480px;
+            }
+
+            position: relative;
+
+            .promo {
+                display: flex;
+                flex-flow: column;
+                position: absolute;
+                left: 24px;
+                bottom: 24px;
+                padding: 1rem;
+                gap: 8px;
+
+                > div {
+                    display: inline-flex;
+                    justify-content: start;
+                    align-items: center;
+                    gap: 12px;
+                }
+
+                color: #484848;
+                background: #fff;
+
+                span {
+                    font-size: 28px;
+                }
+            }
+
+            .bar {
+                width: 25px;
+                height: 1px;
+                background: #484848;
+            }
+
+            &:first-child {
+                img {
+                    width: 400px;
+                    height: auto;
+                }
+            }
+        }
+
+        .button-slider {
+            position: absolute;
+            bottom: 5px;
+            left: 438px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+
+            button {
+                width: 12px;
+                height: 12px;
+                background: #B6B6B6;
+                border-radius: 100%;
+                outline: none;
+                border: none;
+                cursor: pointer;
+
+                &:first-child {
+                    width: 30px;
+                    height: 30px;
+                    background: #000;
+                    outline: #000 solid 1px;
+                    border: 8px solid #FFF;
+                }
+            }
         }
     }
 }
