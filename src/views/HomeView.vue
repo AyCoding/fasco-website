@@ -55,7 +55,7 @@ onUnmounted(() => {
       </div>
 
       <div class="logos">
-        <div style="padding-inline: 1rem">
+        <div>
           <img src="/chanel.png" alt="" />
           <img src="/lvmh.png" alt="" />
           <img src="/prada.png" alt="" />
@@ -64,8 +64,8 @@ onUnmounted(() => {
         </div>
       </div>
 
-      <section class="deal-of-the-month" style="overflow: hidden">
-        <div style="display: flex">
+      <section class="deal-of-the-month">
+        <div>
           <div>
             <div class="head">
               <div>
@@ -183,7 +183,11 @@ onUnmounted(() => {
                   </div>
                   <div class="stars">
                     <!-- STARS -->
-                    X X X X X
+                    <img src="/stars.svg" alt="" />
+                    <img src="/stars.svg" alt="" />
+                    <img src="/stars.svg" alt="" />
+                    <img src="/stars.svg" alt="" />
+                    <img src="/stars.svg" alt="" />
                   </div>
                 </div>
                 <p class="reviews">(4.1k) Customer Reviews</p>
@@ -203,7 +207,11 @@ onUnmounted(() => {
                   </div>
                   <div class="stars">
                     <!-- STARS -->
-                    X X X X X
+                    <img src="/stars.svg" alt="" />
+                    <img src="/stars.svg" alt="" />
+                    <img src="/stars.svg" alt="" />
+                    <img src="/stars.svg" alt="" />
+                    <img src="/stars.svg" alt="" />
                   </div>
                 </div>
                 <p class="reviews">(4.1k) Customer Reviews</p>
@@ -223,7 +231,11 @@ onUnmounted(() => {
                   </div>
                   <div class="stars">
                     <!-- STARS -->
-                    X X X X X
+                    <img src="/stars.svg" alt="" />
+                    <img src="/stars.svg" alt="" />
+                    <img src="/stars.svg" alt="" />
+                    <img src="/stars.svg" alt="" />
+                    <img src="/stars.svg" alt="" />
                   </div>
                 </div>
                 <p class="reviews">(4.1k) Customer Reviews</p>
@@ -244,7 +256,11 @@ onUnmounted(() => {
                   </div>
                   <div class="stars">
                     <!-- STARS -->
-                    X X X X X
+                    <img src="/stars.svg" alt="" />
+                    <img src="/stars.svg" alt="" />
+                    <img src="/stars.svg" alt="" />
+                    <img src="/stars.svg" alt="" />
+                    <img src="/stars.svg" alt="" />
                   </div>
                 </div>
                 <p class="reviews">(4.1k) Customer Reviews</p>
@@ -264,7 +280,11 @@ onUnmounted(() => {
                   </div>
                   <div class="stars">
                     <!-- STARS -->
-                    X X X X X
+                    <img src="/stars.svg" alt="" />
+                    <img src="/stars.svg" alt="" />
+                    <img src="/stars.svg" alt="" />
+                    <img src="/stars.svg" alt="" />
+                    <img src="/stars.svg" alt="" />
                   </div>
                 </div>
                 <p class="reviews">(4.1k) Customer Reviews</p>
@@ -284,7 +304,11 @@ onUnmounted(() => {
                   </div>
                   <div class="stars">
                     <!-- STARS -->
-                    X X X X X
+                    <img src="/stars.svg" alt="" />
+                    <img src="/stars.svg" alt="" />
+                    <img src="/stars.svg" alt="" />
+                    <img src="/stars.svg" alt="" />
+                    <img src="/stars.svg" alt="" />
                   </div>
                 </div>
                 <p class="reviews">(4.1k) Customer Reviews</p>
@@ -295,6 +319,11 @@ onUnmounted(() => {
               </div>
             </div>
           </div>
+        </div>
+        <div class="view-more">
+          <a href="#">
+            <div class="btn">View More</div>
+          </a>
         </div>
       </section>
     </main>

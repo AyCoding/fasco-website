@@ -179,6 +179,7 @@ header {
 
         display: flex;
         justify-content: space-between;
+        padding-inline: 1rem;
 
         img {
             object-fit: contain;
@@ -198,13 +199,14 @@ header {
     padding-top: 5rem;
 
     height: 800px;
+    overflow: hidden;
 
     > div {
         max-width: 1280px;
         margin: auto;
+        display: flex;
     }
 
-    /*DIV de droite en position absolute ? relative à une boite à droite */
 
     .head {
         width: 450px;
@@ -343,7 +345,7 @@ header {
             button {
                 width: 12px;
                 height: 12px;
-                background: #B6B6B6;
+                background: #b6b6b6;
                 border-radius: 100%;
                 outline: none;
                 border: none;
@@ -354,7 +356,7 @@ header {
                     height: 30px;
                     background: #000;
                     outline: #000 solid 1px;
-                    border: 8px solid #FFF;
+                    border: 8px solid #fff;
                 }
             }
         }
@@ -388,15 +390,15 @@ header {
         gap: 60px;
         margin-top: 50px;
 
-
         .product-card {
             width: 380px;
             /*height: 450px;*/
             height: auto;
             border-radius: 10px;
-            background: #FFF;
+            background: #fff;
             box-shadow: 0 40px 90px 0 rgba(0, 0, 0, 0.06);
-            img {
+
+            > img {
                 padding-inline: 25px;
                 padding-block: 15px;
                 width: 330px;
@@ -423,7 +425,7 @@ header {
             .subtitle {
                 font-size: 12px;
                 font-weight: 500;
-                color: #8A8A8A;
+                color: #8a8a8a;
             }
 
             .reviews {
@@ -431,16 +433,18 @@ header {
                 font-size: 12px;
                 font-weight: 500;
             }
+
             .price {
                 padding-top: 25px;
                 font-size: 24px;
                 font-weight: 500;
                 color: #484848;
             }
+
             .alert {
                 font-size: 12px;
                 font-weight: 400;
-                color: #FF4646;
+                color: #ff4646;
             }
 
             .product-sale {
@@ -448,6 +452,43 @@ header {
                 justify-content: space-between;
                 align-items: end;
             }
+
+            .stars {
+                display: flex;
+
+                img {
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+        }
+    }
+
+    .view-more {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+}
+
+.categories {
+    .category-list {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+
+        .category-item {
+            width: 200px;
+            background: #fafafa;
+            border-radius: 10px;
+            padding-block: 20px;
+            text-align: center;
+            color: #8a8a8a;
+        }
+
+        a:nth-child(2) .category-item {
+            background: #000000;
+            color: #ffffff;
         }
     }
 }
