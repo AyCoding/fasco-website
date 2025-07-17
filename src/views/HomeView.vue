@@ -144,6 +144,7 @@ onUnmounted(() => {
       </section>
       <section class="new-arrivals">
         <div>
+          <!--          TODO : Refaire les class css ci-dessous pour utiliser sur plusieurs section -->
           <div class="head">
             <h2>New Arrivals</h2>
             <p class="desc">
@@ -324,6 +325,153 @@ onUnmounted(() => {
           <a href="#">
             <div class="btn">View More</div>
           </a>
+        </div>
+      </section>
+      <section class="slider-section">
+        <div class="slider">
+          <div>
+            <!--            image -->
+          </div>
+          <div>
+            <!--            Produit -->
+          </div>
+        </div>
+      </section>
+      <div class="features">
+        <div class="feature">
+          <div class="icon">
+            <img src="/features-1.png" alt="" />
+          </div>
+          <div class="text">
+            <h4>High Quality</h4>
+            <p>crafted from top materials</p>
+          </div>
+        </div>
+        <div class="feature">
+          <div class="icon">
+            <img src="/features-2.png" alt="" />
+          </div>
+          <div class="text">
+            <h4>Warrany Protection</h4>
+            <p>Over 2 years</p>
+          </div>
+        </div>
+        <div class="feature">
+          <div class="icon">
+            <img src="/features-3.png" alt="" />
+          </div>
+          <div class="text">
+            <h4>Free Shipping</h4>
+            <p>Order over 150 $</p>
+          </div>
+        </div>
+        <div class="feature">
+          <div class="icon">
+            <img src="/features-4.png" alt="" />
+          </div>
+          <div class="text">
+            <h4>24 / 7 Support</h4>
+            <p>Dedicated support</p>
+          </div>
+        </div>
+      </div>
+      <section class="gallery-section">
+        <div class="gallery">
+          <div class="head">
+            <h2>Follow Us On Instagram</h2>
+            <p class="desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis ultrices
+              sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin
+            </p>
+          </div>
+
+          <div class="image">
+            <img src="/gallery-image-1.png" alt="" />
+            <img src="/gallery-image-2.png" alt="" />
+            <img src="/gallery-image-3.png" alt="" />
+            <img src="/gallery-image-4.png" alt="" />
+            <img src="/gallery-image-5.png" alt="" />
+            <img src="/gallery-image-6.png" alt="" />
+            <img src="/gallery-image-7.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="testimonials-section">
+        <div class="testimonials">
+          <div class="head">
+            <h2>This Is What Our Customers Say</h2>
+            <p class="desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis
+            </p>
+          </div>
+
+          <div class="cards">
+            <div class="card">
+              <div class="testimonial-image">
+                <img src="/testimonials-image-1.png" alt="" />
+              </div>
+              <div class="testimonial-review">
+                <p>
+                  "You won't regret it. I would like to personally thank you for your outstanding
+                  product. Absolutely wonderful!"
+                </p>
+                <div>
+                  <img src="/stars.svg" alt="" />
+                  <img src="/stars.svg" alt="" />
+                  <img src="/stars.svg" alt="" />
+                  <img src="/stars.svg" alt="" />
+                  <img src="/stars.svg" alt="" />
+                </div>
+                <hr />
+                <h3>James K.</h3>
+                <p>Traveler</p>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="testimonial-image">
+                <img src="/testimonials-image-2.png" alt="" />
+              </div>
+              <div class="testimonial-review">
+                <p>
+                  "You won't regret it. I would like to personally thank you for your outstanding
+                  product. Absolutely wonderful!"
+                </p>
+                <div>
+                  <img src="/stars.svg" alt="" />
+                  <img src="/stars.svg" alt="" />
+                  <img src="/stars.svg" alt="" />
+                  <img src="/stars.svg" alt="" />
+                  <img src="/stars.svg" alt="" />
+                </div>
+                <hr />
+                <h3>James K.</h3>
+                <p>Traveler</p>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="testimonial-image">
+                <img src="/testimonials-image-3.png" alt="" />
+              </div>
+              <div class="testimonial-review">
+                <p>
+                  "You won't regret it. I would like to personally thank you for your outstanding
+                  product. Absolutely wonderful!"
+                </p>
+                <div>
+                  <img src="/stars.svg" alt="" />
+                  <img src="/stars.svg" alt="" />
+                  <img src="/stars.svg" alt="" />
+                  <img src="/stars.svg" alt="" />
+                  <img src="/stars.svg" alt="" />
+                </div>
+                <hr />
+                <h3>James K.</h3>
+                <p>Traveler</p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>
